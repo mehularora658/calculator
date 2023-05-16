@@ -3,8 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Calculator App</h1>
+    <>
+    <div className='container'>
+      <h1 className='heading'>Calculator App</h1>
+      <div className='calculator-main'>
       <form>
         <input type="text" readOnly className="display" />
         <br />
@@ -29,7 +31,9 @@ function App() {
           <input type="button" className="btn" value="/" />
         </div>
       </form>
+      </div>
     </div>
+    </>
   );
 }
 
